@@ -1,0 +1,16 @@
+*.idb
+*.obj
+*.pdb
+*.exe
+ServerCore/Binaries/
+ServerCore/Intermediate/
+
+Libraries/lib/**/*.pdb
+Libraries/lib/**/*.idb
+
+!Libraries/**/*.lib
+!Libraries/**/*.dll
+
+.vs/
+*.user
+*.suo

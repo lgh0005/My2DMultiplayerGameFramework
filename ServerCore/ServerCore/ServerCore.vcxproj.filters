@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\00. Main">
+      <UniqueIdentifier>{8771ea91-bdeb-4e1f-a50b-f36884683fe1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Network">
+      <UniqueIdentifier>{6ae41c26-22b8-4b70-97f4-ff287c0ba046}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02. Thread">
+      <UniqueIdentifier>{3a2cc080-3f70-4238-a8d9-b56c49782c9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. Utils">
+      <UniqueIdentifier>{62409766-b4a5-4db3-b798-5a380a16a0ab}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CorePch.h">
+      <Filter>소스 파일\00. Main</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>소스 파일\00. Main</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CorePch.cpp">
+      <Filter>소스 파일\00. Main</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>소스 파일\00. Main</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
