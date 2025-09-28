@@ -26,15 +26,26 @@ using namespace std;
 #include <SDL/SDL.h>
 #include <SDL/SDL_image.h>
 #include <SDL/SDL_ttf.h>
+#include <SDL/SDL_mixer.h> 
 #pragma comment(lib, "SDL/SDL2.lib")
 #pragma comment(lib, "SDL/SDL2main.lib")
 #pragma comment(lib, "SDL/SDL2_image.lib")
 #pragma comment(lib, "SDL/SDL2_ttf.lib")
+#pragma comment(lib, "SDL/SDL2_mixer.lib")
 
-// FMOD
-#include <Fmod/fmod_studio.hpp>
-#include <Fmod/fmod.hpp>
-#include <Fmod/fmod_common.h>
-#include <Fmod/fmod_codec.h>
-#include <Fmod/fmod_errors.h>
-using namespace FMOD;
+// Misc
+#include "Types.h"
+#include "Defines.h"
+#include "Values.h"
+#include "Enums.h"
+
+// Managers
+#include "TimeManager.h"
+#include "RenderManager.h"
+#include "InputManager.h"
+#include "ResourceManager.h"
+
+#define TIME TimeManager::GetInstance()
+#define RENDER RenderManager::GetInstance()
+#define INPUT InputManager::GetInstance()
+#define RESOURCE ResourceManager::GetInstance()

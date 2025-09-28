@@ -3,10 +3,7 @@
 
 int SDL_main(int, char**)
 {
-	while (true)
-	{
-
-	}
-
+	GAME->Init();
+	GAME->Launch();
 	return 0;
 }

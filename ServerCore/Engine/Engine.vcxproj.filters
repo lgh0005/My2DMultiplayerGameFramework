@@ -15,6 +15,21 @@
     <Filter Include="소스 파일\99. Headers">
       <UniqueIdentifier>{66239727-604c-4bab-b870-eee5e25fd076}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\01. Managers">
+      <UniqueIdentifier>{bf882670-0750-4229-ad16-4cc87639ddd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Managers\Managers">
+      <UniqueIdentifier>{75f93ec4-efb9-46b8-a67d-39c8088d3f09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. Components">
+      <UniqueIdentifier>{d1933418-925e-4943-8afd-6c102d4cac2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. Components\Components">
+      <UniqueIdentifier>{8c014319-d847-49c3-85c4-6a546ca6ffcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02. GameObject">
+      <UniqueIdentifier>{15d0878c-5752-46c7-959b-c3f68db20847}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="EnginePch.h">
@@ -23,6 +38,42 @@
     <ClInclude Include="pch.h">
       <Filter>소스 파일\99. Headers</Filter>
     </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>소스 파일\00. Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Defines.h">
+      <Filter>소스 파일\99. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Types.h">
+      <Filter>소스 파일\99. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="SingletonBehaviour.h">
+      <Filter>소스 파일\01. Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderManager.h">
+      <Filter>소스 파일\01. Managers\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManager.h">
+      <Filter>소스 파일\01. Managers\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Values.h">
+      <Filter>소스 파일\99. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>소스 파일\01. Managers\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>소스 파일\01. Managers\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Enums.h">
+      <Filter>소스 파일\99. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>소스 파일\03. Components</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>소스 파일\02. GameObject</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="EnginePch.cpp">
@@ -30,6 +81,30 @@
     </ClCompile>
     <ClCompile Include="pch.cpp">
       <Filter>소스 파일\99. Headers</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>소스 파일\00. Game</Filter>
+    </ClCompile>
+    <ClCompile Include="SingletonBehaviour.cpp">
+      <Filter>소스 파일\01. Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderManager.cpp">
+      <Filter>소스 파일\01. Managers\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeManager.cpp">
+      <Filter>소스 파일\01. Managers\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>소스 파일\01. Managers\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>소스 파일\01. Managers\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>소스 파일\03. Components</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>소스 파일\02. GameObject</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
